@@ -5,7 +5,7 @@ const LeftSlider = () => {
     <div className="flex flex-col items-center justify-center ">
       <div className="bg-color3 flex h-32 w-32 items-center justify-center overflow-hidden rounded-full">
         <img src={Profile} className="mt-4 h-40 w-44 rounded-full" />
-        <div className="absolute left-[10.7rem] top-[8.5rem] h-4 w-4 rounded-full bg-lime-500"></div>
+        <div className="absolute left-[10.7rem] top-[7.9rem] h-4 w-4 rounded-full bg-lime-500"></div>
       </div>
       <div className="mt-10 flex flex-col gap-4">
         <div className="flex flex-col items-center gap-4">
