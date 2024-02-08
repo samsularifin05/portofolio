@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .box-icon {
+    @apply bg-color2 h-5 w-5 rounded-full;
+  }
+  .menuNonActive {
+    @apply bg-color3 flex h-8 w-8 cursor-pointer items-center justify-center rounded-full;
+  }
+  .menuActive {
+    @apply bg-color2 flex h-8 w-8 cursor-pointer items-center justify-center rounded-full;
+  }
+}
+
+.custom-scrollbar {
+  scrollbar-color: #f0f0f6 transparent;
+  scrollbar-width: thin;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 2px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  height: 10px;
+  border-radius: 3px;
+  background-color: transparent;
+  width: 2px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background-color: transparent;
+}
