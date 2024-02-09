@@ -1,4 +1,13 @@
-import { IcCopy, Profile } from "../assets";
+import {
+  IcCopy,
+  IcDrible,
+  IcFacebook,
+  IcInstagram,
+  IcLinkIn,
+  IcTwitter,
+  IcYuotube,
+  Profile,
+} from "../assets";
 
 const LeftSlider = () => {
   return (
@@ -14,12 +23,24 @@ const LeftSlider = () => {
             Font-end Developer
           </p>
           <div className="flex gap-4">
-            <div className="box-icon"></div>
-            <div className="box-icon"></div>
-            <div className="box-icon"></div>
-            <div className="box-icon"></div>
-            <div className="box-icon"></div>
-            <div className="box-icon"></div>
+            <div className="box-icon">
+              <img src={IcFacebook} />{" "}
+            </div>
+            <div className="box-icon">
+              <img src={IcInstagram} />{" "}
+            </div>
+            <div className="box-icon">
+              <img src={IcTwitter} />{" "}
+            </div>
+            <div className="box-icon">
+              <img src={IcLinkIn} />{" "}
+            </div>
+            <div className="box-icon">
+              <img src={IcYuotube} />{" "}
+            </div>
+            <div className="box-icon">
+              <img src={IcDrible} />{" "}
+            </div>
           </div>
         </div>
         <div className="mt-5 h-[0.8px] w-full rounded bg-[#F0F0F6]"></div>
