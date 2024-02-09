@@ -17,34 +17,48 @@ const RightSlider = () => {
   };
   return (
     <div className="flex flex-col items-center">
-      <img
-        src={IcLight}
-        className="mt-10 hidden h-10 w-10 cursor-pointer dark:block"
-        onClick={toggleDarkMode}
-      />
-      <img
-        src={colorTheme === "light" ? IcLight : Contrast}
-        className="mt-10 h-10 w-10 cursor-pointer dark:hidden"
-        onClick={toggleDarkMode}
-      />
-      <div className="mt-16 flex flex-col gap-10">
-        <div className="menuActive">
-          <IcHome />
+      <div className="group mx-auto">
+        <img
+          src={IcLight}
+          className="mt-10 hidden h-10 w-10 cursor-pointer transition group-hover:scale-90 dark:block"
+          onClick={toggleDarkMode}
+        />
+        <img
+          src={colorTheme === "light" ? IcLight : Contrast}
+          className="mt-10 h-10 w-10 cursor-pointer transition group-hover:scale-90 dark:hidden"
+          onClick={toggleDarkMode}
+        />
+      </div>
+      <div className="mt-16 flex flex-col gap-10 ">
+        <div className="group">
+          <div className="menuActive transition group-hover:scale-90 ">
+            <IcHome />
+          </div>
         </div>
-        <div className="menuNonActive">
-          <IcService />
+        <div className="group">
+          <div className="menuNonActive transition group-hover:scale-90">
+            <IcService />
+          </div>
         </div>
-        <div className="menuNonActive">
-          <IcSchools />
+        <div className="group">
+          <div className="menuNonActive transition group-hover:scale-90">
+            <IcSchools />
+          </div>
         </div>
-        <div className="menuNonActive">
-          <IcPortofolio />
+        <div className="group">
+          <div className="menuNonActive transition group-hover:scale-90">
+            <IcPortofolio />
+          </div>
         </div>
-        <div className="menuNonActive">
-          <IcBlog />
+        <div className="group">
+          <div className="menuNonActive transition group-hover:scale-90">
+            <IcBlog />
+          </div>
         </div>
-        <div className="menuNonActive">
-          <IcContact />
+        <div className="group">
+          <div className="menuNonActive transition group-hover:scale-90">
+            <IcContact />
+          </div>
         </div>
       </div>
     </div>

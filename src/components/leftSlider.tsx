@@ -13,9 +13,9 @@ const LeftSlider = () => {
   return (
     <div className="flex flex-col items-center justify-center ">
       <div className="flex h-32 w-32 items-center justify-center overflow-hidden rounded-full bg-color3">
-        <img src={Profile} className="mt-4 h-40 w-44 rounded-full" />
+        <img src={Profile} className="mt-4 h-44 w-48 rounded-full" />
       </div>
-      <div className="z-20 -mt-[2rem] ml-[5.7rem] h-4 w-4 rounded-full bg-lime-500"></div>
+      <div className="z-20 -mt-[2rem] ml-[6.4rem] h-4 w-4 rounded-full bg-lime-500"></div>
       <div className="mt-10 flex flex-col gap-4">
         <div className="flex flex-col items-center gap-4">
           <p className="text-[18px] dark:text-white">Samsul Arifin</p>
@@ -23,23 +23,35 @@ const LeftSlider = () => {
             Font-end Developer
           </p>
           <div className="flex gap-4">
-            <div className="box-icon">
-              <img src={IcFacebook} />{" "}
+            <div className="group">
+              <div className="box-icon transition group-hover:scale-90">
+                <img src={IcFacebook} />{" "}
+              </div>
             </div>
-            <div className="box-icon">
-              <img src={IcInstagram} />{" "}
+            <div className="group">
+              <div className="box-icon transition group-hover:scale-90">
+                <img src={IcInstagram} />{" "}
+              </div>
             </div>
-            <div className="box-icon">
-              <img src={IcTwitter} />{" "}
+            <div className="group">
+              <div className="box-icon transition group-hover:scale-90">
+                <img src={IcTwitter} />{" "}
+              </div>
             </div>
-            <div className="box-icon">
-              <img src={IcLinkIn} />{" "}
+            <div className="group">
+              <div className="box-icon transition group-hover:scale-90">
+                <img src={IcLinkIn} />{" "}
+              </div>
             </div>
-            <div className="box-icon">
-              <img src={IcYuotube} />{" "}
+            <div className="group">
+              <div className="box-icon transition group-hover:scale-90">
+                <img src={IcYuotube} />{" "}
+              </div>
             </div>
-            <div className="box-icon">
-              <img src={IcDrible} />{" "}
+            <div className="group">
+              <div className="box-icon transition group-hover:scale-90">
+                <img src={IcDrible} />{" "}
+              </div>
             </div>
           </div>
         </div>
@@ -199,8 +211,10 @@ const LeftSlider = () => {
           </div>
         </div>
         <div className="mt-2 h-[0.8px] w-full rounded bg-color3"></div>
-        <div className="flex h-10 w-full items-center justify-center rounded bg-color2 ">
-          Download Cv
+        <div className="group">
+          <div className="flex h-10 w-full cursor-pointer items-center justify-center rounded bg-color2 transition group-hover:scale-90">
+            Download Cv
+          </div>
         </div>
       </div>
     </div>
