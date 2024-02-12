@@ -24,28 +24,32 @@ const Blog = () => {
         </p>
 
         <div className="mt-10 flex flex-row gap-5" data-aos="zoom-in">
-          <div className="h-[464px] w-[310px] bg-white">
+          <div className="h-[464px] w-[310px] bg-white dark:bg-gray-800">
             <img src={Portofolio1} className="h-52 w-full bg-cover" />
             <div className="flex flex-col justify-between  p-10">
-              <h1 className="text-[18px]">How to make web tempates</h1>
+              <h1 className="text-[18px] dark:text-white">
+                How to make web tempates
+              </h1>
               <div>
-                <p className="mt-2 text-[15px] text-color2">
+                <p className="mt-2 text-[15px] text-color2 dark:text-white">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae
                   nulla diam in ac dictum a urna nulla diam in ac dictum a urna{" "}
                 </p>
               </div>
               <div className="mt-10 flex items-center text-[18px]">
-                <p className="text-color1">Learn more</p>{" "}
+                <p className="text-color1 ">Learn more</p>{" "}
                 <img src={IcArrowRight} className="mt-1 h-6 w-6" />
               </div>
             </div>
           </div>
-          <div className="h-[464px] w-[310px] bg-white">
+          <div className="h-[464px] w-[310px] bg-white dark:bg-gray-800">
             <img src={Portofolio2} className="h-52 w-full bg-cover" />
             <div className="flex flex-col justify-between  p-10">
-              <h1 className="text-[18px]">How to make web tempates</h1>
+              <h1 className="text-[18px] dark:text-white">
+                How to make web tempates
+              </h1>
               <div>
-                <p className="mt-2 text-[15px] text-color2">
+                <p className="mt-2 text-[15px] text-color2 dark:text-white">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae
                   nulla diam in ac dictum a urna nulla diam in ac dictum a urna{" "}
                 </p>
@@ -56,12 +60,14 @@ const Blog = () => {
               </div>
             </div>
           </div>
-          <div className="h-[464px] w-[310px] bg-white">
+          <div className="h-[464px] w-[310px] bg-white dark:bg-gray-800">
             <img src={Portofolio3} className="h-52 w-full bg-cover" />
             <div className="flex flex-col justify-between  p-10">
-              <h1 className="text-[18px]">How to make web tempates</h1>
+              <h1 className="text-[18px] dark:text-white">
+                How to make web tempates
+              </h1>
               <div>
-                <p className="mt-2 text-[15px] text-color2">
+                <p className="mt-2 text-[15px] text-color2 dark:text-white">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae
                   nulla diam in ac dictum a urna nulla diam in ac dictum a urna{" "}
                 </p>
@@ -80,19 +86,23 @@ const Blog = () => {
             <div className="w-full text-[32px]"> Leave us your info</div>
             <div className="mt-5 h-[665px] w-[570px] bg-white p-5 dark:bg-gray-800">
               <div className="mt-2">
-                <p className="text-color2">Your Full Name ( Required)</p>
+                <p className="text-color2 dark:text-white">
+                  Your Full Name ( Required)
+                </p>
                 <input className="h-10 w-full rounded bg-color1 p-4" />
               </div>
               <div className="mt-5">
-                <p className="text-color2">Your Email ( Required)</p>
+                <p className="text-color2 dark:text-white">
+                  Your Email ( Required)
+                </p>
                 <input className="h-10 w-full rounded bg-color1 p-4" />
               </div>
               <div className="mt-5">
-                <p className="text-color2">Subject</p>
+                <p className="text-color2 dark:text-white">Subject</p>
                 <input className="h-10 w-full rounded bg-color1 p-4" />
               </div>
               <div className="mt-5">
-                <p className="text-color2">Your Message</p>
+                <p className="text-color2 dark:text-white">Your Message</p>
                 <textarea className="no-resize h-72 w-full rounded bg-color1 p-4" />
               </div>
               <div className="mt-4 flex w-44 justify-center rounded bg-color2 p-1">
@@ -108,15 +118,15 @@ const Blog = () => {
                   <img src={IcLocation} className=" h-5 w-5" />
                 </div>
               </div>
-              <div className="mt-10 flex justify-between text-color2">
+              <div className="mt-10 flex justify-between text-color2 dark:text-white">
                 <p className="text-[18px]"> Country: </p>
                 <p className="text-[15px]"> Bangladesh </p>
               </div>
-              <div className="flex justify-between text-color2">
+              <div className="flex justify-between text-color2 dark:text-white">
                 <p className="text-[18px]"> City: </p>
                 <p className="text-[15px]"> Bangladesh </p>
               </div>
-              <div className="flex justify-between text-color2">
+              <div className="flex justify-between text-color2 dark:text-white">
                 <p className="text-[18px]"> Streat: </p>
                 <p className="text-[15px]"> 35 vhatara, Badda </p>
               </div>
@@ -127,15 +137,15 @@ const Blog = () => {
                   <img src={IcMail} className=" h-5 w-5" />
                 </div>
               </div>
-              <div className="mt-10 flex justify-between text-color2">
+              <div className="mt-10 flex justify-between text-color2 dark:text-white">
                 <p className="text-[18px]"> Email: </p>
                 <p className="text-[15px]"> youremail@gmail.com </p>
               </div>
-              <div className="flex justify-between text-color2">
+              <div className="flex justify-between text-color2 dark:text-white">
                 <p className="text-[18px]"> Skype: </p>
                 <p className="text-[15px]"> @yourusername </p>
               </div>
-              <div className="flex justify-between text-color2">
+              <div className="flex justify-between text-color2 dark:text-white">
                 <p className="text-[18px]"> Telegram </p>
                 <p className="text-[15px]"> @yourusername </p>
               </div>
@@ -146,15 +156,15 @@ const Blog = () => {
                   <img src={IcMobile} className=" h-5 w-5" />
                 </div>
               </div>
-              <div className="mt-10 flex justify-between text-color2">
+              <div className="mt-10 flex justify-between text-color2 dark:text-white">
                 <p className="text-[18px]"> Support services: </p>
                 <p className="text-[15px]"> 15369 </p>
               </div>
-              <div className="flex justify-between text-color2">
+              <div className="flex justify-between text-color2 dark:text-white">
                 <p className="text-[18px]"> Office: </p>
                 <p className="text-[15px]"> +58 (021)356 587 235 </p>
               </div>
-              <div className="flex justify-between text-color2">
+              <div className="flex justify-between text-color2 dark:text-white">
                 <p className="text-[18px]"> Personal: </p>
                 <p className="text-[15px]"> +58 (021)356 587 235 </p>
               </div>
