@@ -41,6 +41,7 @@ const Home = () => {
           </div>
         </div>
         <img
+          data-aos="zoom-in"
           src={Profile}
           className="absolute -top-[0.8rem] right-56 h-[21.2rem] w-[16rem]"
         />
