@@ -51,7 +51,7 @@ const RightSlider = () => {
         <div className="group">
           <Link
             onClick={() => setmenuActive(3)}
-            to={"/service"}
+            to={"/education"}
             className={`${menuActive === 3 ? "menuActive" : "menuNonActive"} transition group-hover:scale-90`}
           >
             <IcSchools color={menuActive === 3 ? "black" : ""} />
@@ -61,7 +61,7 @@ const RightSlider = () => {
           <div className="menuNonActive transition group-hover:scale-90">
             <Link
               onClick={() => setmenuActive(4)}
-              to={"/service"}
+              to={"/work"}
               className={`${menuActive === 4 ? "menuActive" : "menuNonActive"} transition group-hover:scale-90`}
             >
               <IcPortofolio color={menuActive === 4 ? "black" : ""} />
@@ -72,7 +72,7 @@ const RightSlider = () => {
           <div className="menuNonActive transition group-hover:scale-90">
             <Link
               onClick={() => setmenuActive(5)}
-              to={"/service"}
+              to={"/portofolio"}
               className={`${menuActive === 5 ? "menuActive" : "menuNonActive"} transition group-hover:scale-90`}
             >
               <IcBlog color={menuActive === 5 ? "black" : ""} />
@@ -81,16 +81,11 @@ const RightSlider = () => {
         </div>
         <div className="group">
           <Link
-            to={"/contact"}
-            className="menuNonActive transition group-hover:scale-90"
+            onClick={() => setmenuActive(6)}
+            to={"/blog"}
+            className={`${menuActive === 6 ? "menuActive" : "menuNonActive"} transition group-hover:scale-90`}
           >
-            <Link
-              onClick={() => setmenuActive(6)}
-              to={"/service"}
-              className={`${menuActive === 6 ? "menuActive" : "menuNonActive"} transition group-hover:scale-90`}
-            >
-              <IcContact color={menuActive === 6 ? "black" : ""} />
-            </Link>
+            <IcContact color={menuActive === 6 ? "black" : ""} />
           </Link>
         </div>
       </div>

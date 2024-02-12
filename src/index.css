@@ -42,8 +42,19 @@
   .price-item {
     @apply flex flex-row items-center text-color2 dark:text-white;
   }
+  .orderButton {
+    @apply mt-10 flex w-full justify-center rounded-full bg-white p-2 shadow shadow-slate-300 transition group-hover:scale-90;
+  }
+  .orderButtonActive {
+    @apply mt-10 flex w-full justify-center rounded-full bg-color2 p-2 shadow shadow-slate-300 transition group-hover:scale-90;
+  }
+  .mostPopuler {
+    @apply absolute -mx-10 -mt-10 h-[30px] w-[330px] bg-color2 text-center;
+  }
 }
-
+.no-resize {
+  resize: none;
+}
 .custom-scrollbar {
   scrollbar-color: #f0f0f6 transparent;
   scrollbar-width: thin;
@@ -62,4 +73,11 @@
 
 .custom-scrollbar::-webkit-scrollbar-track {
   background-color: transparent;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  width: 0; /* Membuat scrollbar menjadi tidak terlihat di browser Chrome/Safari */
+}
+.scrollbar-hide {
+  scrollbar-width: none; /* Membuat scrollbar menjadi tidak terlihat di browser Firefox */
 }

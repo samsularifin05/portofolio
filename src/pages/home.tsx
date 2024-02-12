@@ -41,7 +41,7 @@ const Home = () => {
           </div>
         </div>
         <img
-          data-aos="zoom-in"
+          data-aos="zoom-in-up"
           src={Profile}
           className="absolute -top-[0.8rem] right-56 h-[21.2rem] w-[16rem]"
         />
@@ -81,9 +81,11 @@ const Home = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae
               nulla diam in ac dictum a urna viverra morbi.{" "}
             </p>
-            <div className="flex items-center justify-center">
-              <p className="text-[12px] text-color1">ORDER NOW</p>
-              <img src={IcArrowRight} className="h-6 w-6" />
+            <div className="group">
+              <div className="flex cursor-pointer items-center justify-center transition group-hover:scale-90">
+                <p className="text-[12px] text-color1">ORDER NOW</p>
+                <img src={IcArrowRight} className="h-6 w-6" />
+              </div>
             </div>
           </div>
         </div>

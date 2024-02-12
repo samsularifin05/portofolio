@@ -20,10 +20,22 @@ import IcPhotographer from "./Photographer.png";
 import IcArrowRight from "./Frame.png";
 import IcCheck from "./IcCheck";
 import IcClose from "./IcClose";
+import Portofolio1 from "./Image.png";
+import Portofolio2 from "./Image2.png";
+import Portofolio3 from "./Image3.png";
+import IcMail from "./mail.png";
+import IcLocation from "./location.png";
+import IcMobile from "./Mobile.png";
 export {
   IcClose,
   IcCheck,
+  IcMail,
+  IcLocation,
+  IcMobile,
+  Portofolio1,
   Profile,
+  Portofolio2,
+  Portofolio3,
   Contrast,
   IcDrible,
   IcPhotographer,

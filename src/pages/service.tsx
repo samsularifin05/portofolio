@@ -62,15 +62,12 @@ const Service = () => {
               <p className="ml-4">20 GB Bandwith</p>
             </div>
           </div>
-          <button className="mt-10 flex w-full justify-center rounded-full bg-white p-2 shadow shadow-slate-300">
-            {" "}
-            Order Now{" "}
-          </button>
+          <div className="group flex w-full">
+            <button className="orderButton"> Order Now </button>
+          </div>
         </div>
         <div className="cardPriceList">
-          <div className="absolute -mx-10 -mt-10 h-[30px] w-[330px] bg-color2 text-center">
-            Most Popular
-          </div>
+          <div className="mostPopuler">Most Popular</div>
           <div className="flex flex-col items-center justify-center">
             <h1 className="titlePriceList">Gold</h1>
             <div className="flex flex-row items-center gap-2">
@@ -113,10 +110,9 @@ const Service = () => {
               <p className="ml-4">20 GB Bandwith</p>
             </div>
           </div>
-          <button className="mt-10 flex w-full justify-center rounded-full bg-color2 p-2 shadow shadow-slate-300">
-            {" "}
-            Order Now{" "}
-          </button>
+          <div className="group flex w-full">
+            <button className="orderButtonActive"> Order Now </button>
+          </div>
         </div>
         <div className="cardPriceList">
           <div className="flex flex-col items-center justify-center">
@@ -160,10 +156,9 @@ const Service = () => {
                 <p className="ml-4">20 GB Bandwith</p>
               </div>
             </div>
-            <button className="mt-10 flex w-full justify-center rounded-full bg-white p-2 shadow shadow-slate-300">
-              {" "}
-              Order Now{" "}
-            </button>
+            <div className="group flex w-full">
+              <button className="orderButton"> Order Now </button>
+            </div>
           </div>
         </div>
       </div>

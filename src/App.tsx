@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import { LeftSlider, RightSlider } from "./components";
-import { Home, Service } from "./pages";
+import { Blog, Education, Home, PortoFolio, Service, WorkStory } from "./pages";
 
 const App = () => {
   return (
@@ -16,6 +16,10 @@ const App = () => {
           <Routes>
             <Route index element={<Home />} />
             <Route path="service" element={<Service />} />
+            <Route path="education" element={<Education />} />
+            <Route path="work" element={<WorkStory />} />
+            <Route path="portofolio" element={<PortoFolio />} />
+            <Route path="blog" element={<Blog />} />
           </Routes>
         </div>
         <div className="flex h-screen w-[6.8rem] justify-center bg-white p-5 dark:bg-gray-800">
