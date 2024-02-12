@@ -1,6 +1,10 @@
 import {
   IcArrowRight,
   IcLocation,
+  IcLogo1,
+  IcLogo2,
+  IcLogo3,
+  IcLogo4,
   IcMail,
   IcMobile,
   Portofolio1,
@@ -84,7 +88,7 @@ const Blog = () => {
         <div className="flex justify-between">
           <div>
             <div className="w-full text-[32px]"> Leave us your info</div>
-            <div className="mt-5 h-[665px] w-[570px] bg-white p-5 dark:bg-gray-800">
+            <div className="mt-5 h-[668px] w-[570px] bg-white p-5 dark:bg-gray-800">
               <div className="mt-2">
                 <p className="text-color2 dark:text-white">
                   Your Full Name ( Required)
@@ -170,6 +174,23 @@ const Blog = () => {
               </div>
             </div>
           </div>
+        </div>
+        <div className="mt-10 flex w-full">
+          <iframe
+            className="flex h-96 w-full"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126748.56211042157!2d107.64315755!3d-6.90344945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e6398252477f%3A0x146a1f93d3e815b2!2sBandung%2C%20Kota%20Bandung%2C%20Jawa%20Barat!5e0!3m2!1sid!2sid!4v1707721389057!5m2!1sid!2sid"
+            style={{ border: 0 }}
+            loading="lazy"
+          ></iframe>
+        </div>
+        <div className="mt-10 flex flex-row justify-between">
+          <img src={IcLogo1} className="h-36" />
+          <img src={IcLogo2} className="h-36" />
+          <img src={IcLogo3} className="h-36" />
+          <img src={IcLogo4} className="h-36" />
+        </div>
+        <div className="data:bg-slate-800 mt-10 flex h-10 w-full items-center justify-center bg-white dark:bg-slate-800 dark:text-white">
+          2023 All Rights Reserved.Ojjomedia
         </div>
       </div>
     </div>

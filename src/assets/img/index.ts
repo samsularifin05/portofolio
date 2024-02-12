@@ -26,8 +26,16 @@ import Portofolio3 from "./Image3.png";
 import IcMail from "./mail.png";
 import IcLocation from "./location.png";
 import IcMobile from "./Mobile.png";
+import IcLogo1 from "./logo1.png";
+import IcLogo2 from "./logo2.png";
+import IcLogo3 from "./logo3.png";
+import IcLogo4 from "./logo4.png";
 export {
   IcClose,
+  IcLogo1,
+  IcLogo3,
+  IcLogo2,
+  IcLogo4,
   IcCheck,
   IcMail,
   IcLocation,
