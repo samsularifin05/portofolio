@@ -1,3 +1,5 @@
+import { IcCheck, IcClose } from "../assets";
+
 const Service = () => {
   return (
     <>
@@ -7,50 +9,161 @@ const Service = () => {
         </h1>
         <p
           className="mt-2 flex w-96 items-center justify-center text-center text-[12px] text-color2"
-          data-aos="fade-up"
+          data-aos="zoom-in"
         >
           Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
           sint. Velit officia consequat duis enim velit mollit. lorem ipsum
         </p>
       </div>
-      <div className="mt-5 flex flex-row justify-center gap-5">
-        <div className="h-[609px] w-[310px] bg-white p-10">
+      <div
+        className="mt-5 flex flex-row justify-center gap-5"
+        data-aos="fade-up"
+      >
+        <div className="cardPriceList">
           <div className="flex flex-col items-center justify-center">
-            <h1 className="text-[24px]">Silver</h1>
+            <h1 className="titlePriceList">Silver</h1>
             <div className="flex flex-row items-center gap-2">
-              <h2 className="text-[32px]"> $0.00 </h2>{" "}
-              <p className="mt-2 text-[12px]"> /Hour</p>
+              <h2 className="price"> $0.00 </h2>{" "}
+              <p className="price-per-hour"> /Hour</p>
             </div>
-            <p className="text-center text-color2">
+            <p className="price-description">
               For most businesses that want to optimize web queries
             </p>
           </div>
+          <div className="mt-10 flex flex-col justify-start gap-3">
+            <div className="price-item">
+              <IcCheck /> <p className="ml-4">UI Design</p>
+            </div>
+            <div className="price-item">
+              <IcCheck /> <p className="ml-4">Web Development</p>
+            </div>
+            <div className="price-item">
+              <IcClose />
+              <p className="ml-4">Logo Design</p>
+            </div>
+            <div className="price-item">
+              <IcClose />
+              <p className="ml-4">Seo Optimization</p>
+            </div>
+            <div className="price-item">
+              <IcClose />
+              <p className="ml-4">WordPress Integration</p>
+            </div>
+            <div className="price-item">
+              <IcClose />
+              <p className="ml-4">5 Websites</p>
+            </div>
+            <div className="price-item">
+              <IcClose />
+              <p className="ml-4">Unlimited User</p>
+            </div>
+            <div className="price-item">
+              <IcClose />
+              <p className="ml-4">20 GB Bandwith</p>
+            </div>
+          </div>
+          <button className="mt-10 flex w-full justify-center rounded-full bg-white p-2 shadow shadow-slate-300">
+            {" "}
+            Order Now{" "}
+          </button>
         </div>
-        <div className="h-[609px] w-[310px] bg-white p-10">
-          <div className="absolute -mx-10 -mt-10 h-[30px] w-[310px] bg-color2 text-center">
+        <div className="cardPriceList">
+          <div className="absolute -mx-10 -mt-10 h-[30px] w-[330px] bg-color2 text-center">
             Most Popular
           </div>
           <div className="flex flex-col items-center justify-center">
-            <h1 className="text-[24px]">Gold</h1>
+            <h1 className="titlePriceList">Gold</h1>
             <div className="flex flex-row items-center gap-2">
-              <h2 className="text-[32px]"> $50.00 </h2>{" "}
-              <p className="mt-2 text-[12px]"> /Hour</p>
+              <h2 className="price"> $50.00 </h2>{" "}
+              <p className="price-per-hour"> /Hour</p>
             </div>
           </div>
-          <p className="text-center text-color2">
+          <p className="price-description">
             For most businesses that want to optimize web queries
           </p>
-        </div>
-        <div className="h-[609px] w-[310px] bg-white p-10">
-          <div className="flex flex-col items-center justify-center">
-            <h1 className="text-[24px]">Diamond</h1>
-            <div className="flex flex-row items-center gap-2">
-              <h2 className="text-[32px]"> $80.00 </h2>{" "}
-              <p className="mt-2 text-[12px]"> /Hour</p>
+          <div className="mt-10 flex flex-col justify-start gap-3">
+            <div className="price-item">
+              <IcCheck /> <p className="ml-4">UI Design</p>
             </div>
-            <p className="text-center text-color2">
+            <div className="price-item">
+              <IcCheck /> <p className="ml-4">Web Development</p>
+            </div>
+            <div className="price-item">
+              <IcCheck />
+              <p className="ml-4">Logo Design</p>
+            </div>
+            <div className="price-item">
+              <IcCheck />
+              <p className="ml-4">Seo Optimization</p>
+            </div>
+            <div className="price-item">
+              <IcClose />
+              <p className="ml-4">WordPress Integration</p>
+            </div>
+            <div className="price-item">
+              <IcClose />
+              <p className="ml-4">5 Websites</p>
+            </div>
+            <div className="price-item">
+              <IcClose />
+              <p className="ml-4">Unlimited User</p>
+            </div>
+            <div className="price-item">
+              <IcClose />
+              <p className="ml-4">20 GB Bandwith</p>
+            </div>
+          </div>
+          <button className="mt-10 flex w-full justify-center rounded-full bg-color2 p-2 shadow shadow-slate-300">
+            {" "}
+            Order Now{" "}
+          </button>
+        </div>
+        <div className="cardPriceList">
+          <div className="flex flex-col items-center justify-center">
+            <h1 className="titlePriceList">Diamond</h1>
+            <div className="flex flex-row items-center gap-2">
+              <h2 className="price"> $80.00 </h2>{" "}
+              <p className="price-per-hour"> /Hour</p>
+            </div>
+            <p className="price-description">
               For most businesses that want to optimize web queries
             </p>
+            <div className="mt-10 flex flex-col justify-start gap-3">
+              <div className="price-item">
+                <IcCheck /> <p className="ml-4">UI Design</p>
+              </div>
+              <div className="price-item">
+                <IcCheck /> <p className="ml-4">Web Development</p>
+              </div>
+              <div className="price-item">
+                <IcCheck />
+                <p className="ml-4">Logo Design</p>
+              </div>
+              <div className="price-item">
+                <IcCheck />
+                <p className="ml-4">Seo Optimization</p>
+              </div>
+              <div className="price-item">
+                <IcCheck />
+                <p className="ml-4">WordPress Integration</p>
+              </div>
+              <div className="price-item">
+                <IcCheck />
+                <p className="ml-4">5 Websites</p>
+              </div>
+              <div className="price-item">
+                <IcCheck />
+                <p className="ml-4">Unlimited User</p>
+              </div>
+              <div className="price-item">
+                <IcCheck />
+                <p className="ml-4">20 GB Bandwith</p>
+              </div>
+            </div>
+            <button className="mt-10 flex w-full justify-center rounded-full bg-white p-2 shadow shadow-slate-300">
+              {" "}
+              Order Now{" "}
+            </button>
           </div>
         </div>
       </div>

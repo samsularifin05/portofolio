@@ -18,8 +18,11 @@ import IcMicrofond from "./Microphone.png";
 import IcGameDevelopment from "./game-development.png";
 import IcPhotographer from "./Photographer.png";
 import IcArrowRight from "./Frame.png";
-
+import IcCheck from "./IcCheck";
+import IcClose from "./IcClose";
 export {
+  IcClose,
+  IcCheck,
   Profile,
   Contrast,
   IcDrible,

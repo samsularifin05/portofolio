@@ -24,6 +24,24 @@
   .serviceSubTitleCard {
     @apply text-color2  dark:text-white;
   }
+  .cardPriceList {
+    @apply h-[609px] w-[330px] bg-white p-10 dark:bg-gray-800;
+  }
+  .titlePriceList {
+    @apply text-[24px] dark:text-white;
+  }
+  .price {
+    @apply text-[32px] dark:text-white;
+  }
+  .price-per-hour {
+    @apply mt-2 text-[12px] dark:text-white;
+  }
+  .price-description {
+    @apply text-center text-color2 dark:text-white;
+  }
+  .price-item {
+    @apply flex flex-row items-center text-color2 dark:text-white;
+  }
 }
 
 .custom-scrollbar {
