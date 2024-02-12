@@ -12,12 +12,24 @@ import IcInstagram from "./Icons-instagram.svg";
 import IcYuotube from "./Icons-Youtube.svg";
 import IcLinkIn from "./Icons-linkedin.svg";
 import IcTwitter from "./Icons-twitter.svg";
+import IcCoding from "./coding.png";
+import IcUiUx from "./illustration.png";
+import IcMicrofond from "./Microphone.png";
+import IcGameDevelopment from "./game-development.png";
+import IcPhotographer from "./Photographer.png";
+import IcArrowRight from "./Frame.png";
 
 export {
   Profile,
   Contrast,
   IcDrible,
+  IcPhotographer,
+  IcArrowRight,
   IcFacebook,
+  IcMicrofond,
+  IcUiUx,
+  IcGameDevelopment,
+  IcCoding,
   IcInstagram,
   IcYuotube,
   IcLinkIn,

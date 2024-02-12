@@ -55,7 +55,7 @@ const ShapeBanner = () => {
           borderRight: "20px solid red",
           clipPath: "polygon(0 0, 100px 14px, 0 20px)", // Mendefinisikan segitiga dengan clipPath
         }}
-        className="absolute right-[10rem] top-[25rem]"
+        className="absolute right-[10rem] top-[17rem]"
         animate={{
           x: [30, -10, 30], // Mengubah pergerakan menjadi horizontal
           transition: { duration: 1, repeat: Infinity },
@@ -69,7 +69,7 @@ const ShapeBanner = () => {
           borderRadius: "50%",
           boxShadow: "inset 0 0 0 2px #05FF00",
         }}
-        className="absolute right-[67rem] top-[28rem]"
+        className="absolute right-[50rem] top-[18rem]"
         animate={{
           x: [30, -10, 30], // Mengubah pergerakan menjadi horizontal
           transition: { duration: 1, repeat: Infinity },

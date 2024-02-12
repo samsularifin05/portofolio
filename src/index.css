@@ -12,6 +12,18 @@
   .menuActive {
     @apply flex h-8 w-8 cursor-pointer items-center justify-center rounded-full bg-color2;
   }
+  .container {
+    @apply flex flex-col;
+  }
+  .card {
+    @apply flex h-[12.4rem] w-[21.2rem] flex-col items-center justify-center gap-3 bg-white dark:bg-gray-800;
+  }
+  .serviceTitleCard {
+    @apply text-[18px]  dark:text-white;
+  }
+  .serviceSubTitleCard {
+    @apply text-color2  dark:text-white;
+  }
 }
 
 .custom-scrollbar {
